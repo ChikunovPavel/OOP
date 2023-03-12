@@ -1,5 +1,10 @@
 package Seminar1;
 
+import Seminar1.child.Cat;
+import Seminar1.child.dog;
+import Seminar1.child.duck;
+import Seminar1.parent.Animal;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -42,7 +47,7 @@ public class main {
 //
 //        }
 
-        cat2.hunt();
+
 
     }
 }

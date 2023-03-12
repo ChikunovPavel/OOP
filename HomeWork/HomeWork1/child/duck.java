@@ -1,6 +1,8 @@
-package Seminar1;
+package HomeWork1.child;
 
-public class duck extends Animal{
+import HomeWork1.parent.Animal;
+
+public class duck extends Animal {
     public duck(String name, String color, int pawsCount) {
         super(name, color, pawsCount);
     }
@@ -11,12 +13,11 @@ public class duck extends Animal{
 
     @Override
     public void speak() {
-        System.out.println("craa");
+        System.out.println("кря-кря");
     }
 
-    public void fly(){
-        System.out.println("полетели");
+    @Override
+    public void swin() {
     }
-
 
 }
