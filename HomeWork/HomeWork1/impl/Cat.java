@@ -1,7 +1,7 @@
-package Seminar1.child;
+package HomeWork1.impl;
 
 
-import Seminar1.parent.Animal;
+import HomeWork1.parent.Animal;
 
 public class Cat extends Animal {
     public Cat(String name, String color, int pawsCount) {
@@ -17,7 +17,17 @@ public class Cat extends Animal {
 
     @Override
     public void speak() {
-        System.out.println("myu");
+        System.out.println("мяу");
     }
+
+    @Override
+    public void fly() {
+    }
+
+
+    @Override
+    public void swin() {
+    }
+
 }
 

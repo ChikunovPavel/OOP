@@ -1,6 +1,6 @@
 package HomeWork1;
 
-import HomeWork1.child.*;
+import HomeWork1.impl.*;
 import HomeWork1.parent.Animal;
 
 import java.util.ArrayList;

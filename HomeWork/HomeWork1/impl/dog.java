@@ -1,20 +1,20 @@
-package HomeWork1.child;
+package HomeWork1.impl;
 
 import HomeWork1.parent.Animal;
 
-public class Fish extends Animal {
-    public Fish(String name, String color, int pawsCount) {
+public class dog extends Animal {
+    public dog(String name, String color, int pawsCount) {
         super(name, color, pawsCount);
     }
 
-    public Fish(String name) {
+    public dog(String name) {
         super(name);
     }
 
     @Override
     public void speak() {
+        System.out.println("гав-гав");
     }
-
 
     @Override
     public void fly() {
@@ -22,7 +22,7 @@ public class Fish extends Animal {
 
 
     @Override
-    public void toGo() {
+    public void swin() {
     }
 
 }

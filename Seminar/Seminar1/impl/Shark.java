@@ -1,4 +1,4 @@
-package Seminar1.child;
+package Seminar1.impl;
 
 import Seminar1.parent.Animal;
 
@@ -12,4 +12,13 @@ public class Shark extends Animal {
         super(name);
     }
 
+    @Override
+    public void speak() {
+
+    }
+
+    @Override
+    public void hunt() {
+
+    }
 }

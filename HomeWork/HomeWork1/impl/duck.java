@@ -1,4 +1,4 @@
-package HomeWork1.child;
+package HomeWork1.impl;
 
 import HomeWork1.parent.Animal;
 

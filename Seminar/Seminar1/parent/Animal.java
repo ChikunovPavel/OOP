@@ -1,6 +1,8 @@
 package Seminar1.parent;
 
-public class Animal {
+public  abstract class Animal {
+
+    private static int animalscounter = 0;
     private String name;
     private String color;
 
@@ -27,17 +29,18 @@ public class Animal {
     }
     public void setPawsCount(int pawsCount) {
         this.pawsCount = pawsCount;
-
-
-
-
-
     }
+
+
+
+
+
 
     public Animal(String name, String color, int pawsCount) {
         this.name = name;
         this.color = color;
         this.pawsCount = pawsCount;
+        animalscounter++;
     }
 
     public Animal (String name){
@@ -55,20 +58,15 @@ public class Animal {
     }private void goToSleep() {
         System.out.println("Cat goToSleep");
     }
-    public void speak(){
-        System.out.println("zzzzzzzzzzzzzzzz");
+
+    public static int getAnimalscounter(){
+        return animalscounter;
     }
 
-    private void toGo(){
-        System.out.println("пошел");
-    }
+    public abstract void speak();
+    public abstract void hunt();
 
-    private void fly(){
-        System.out.println("плетел");
-    }
-    private void swin() {
-        System.out.println("поплыла");
-    }
+
 
 
     @Override
@@ -76,6 +74,9 @@ public class Animal {
         return String.format("имя: %s ," + " цвет: %s \n ",this.name, this.color);
     }
 }
+
+
+
 
 
 
